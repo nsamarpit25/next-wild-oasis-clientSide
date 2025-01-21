@@ -1,37 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis Hotel Management System
 
-## Getting Started
+A modern hotel management application built with Next.js 14, featuring a responsive design and comprehensive booking management capabilities.
 
-First, run the development server:
+## 🚀 Technologies Used
+
+- **Frontend Framework**: Next.js 14 (App Router)
+- **Programming Language**: JavaScript
+- **Styling**:
+  - Styled Components
+  - CSS Modules
+  - Tailwind CSS
+- **State Management**: React Query
+- **Authentication**: Supabase Auth
+- **Database**: Supabase
+- **Form Handling**: React Hook Form
+- **Charts**: Recharts
+- **Date Management**: date-fns
+- **UI Components**:
+  - React Hot Toast
+  - React Icons
+  - React Loading Skeleton
+
+## ✨ Key Features
+
+### Authentication & User Management
+
+- Secure user authentication system
+- Role-based access control
+- User profile management
+
+### Dashboard & Analytics
+
+- Real-time booking statistics
+- Occupancy rates visualization
+- Revenue analytics
+- Interactive charts and graphs
+
+### Booking Management
+
+- Create and manage bookings
+- Real-time availability checking
+- Check-in/Check-out functionality
+- Booking status tracking
+
+### Cabin Management
+
+- Add/Edit/Delete cabin details
+- Cabin image management
+- Pricing configuration
+- Availability status
+
+### Settings & Configuration
+
+- Application settings management
+- Hotel information customization
+- Pricing and policy settings
+
+## 🛠️ Setup and Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nsamarpit25/next-wild-oasis-clientside.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up environment variables: Create a `.env.local` file with:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The application is optimized for deployment on Vercel:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Connect your GitHub repository to Vercel
+2. Configure environment variables
+3. Deploy with a single click
 
-## Learn More
+## 💡 Architecture Highlights
 
-To learn more about Next.js, take a look at the following resources:
+- App Router implementation for improved routing
+- Server-side rendering for better performance
+- API route handlers for backend functionality
+- Responsive design for all device sizes
+- Optimized image handling with Next.js Image component
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# next-wild-oasis-clientSide
+This project is licensed under the MIT License - see the LICENSE file for details.
