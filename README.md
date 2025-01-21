@@ -1,5 +1,7 @@
 # The Wild Oasis Hotel Management System
 
+> This is a practice project created while learning Next.js 14 and modern React development patterns.
+
 A modern hotel management application built with Next.js 14, featuring a responsive design and comprehensive booking management capabilities.
 
 ## 🚀 Technologies Used
