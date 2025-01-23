@@ -24,6 +24,15 @@ export const metadata = {
 // Check the database connection when the app starts
 
 export default function RootLayout({ children }) {
+ //  async function guest() {
+ //   const { data, error } = await supabase
+ //    .from("guests")
+ //    .select("*")
+ //    .eq("email", "nsamarpit25@gmail.com");
+ //   console.log(data);
+ //  }
+ //  guest();
+
  return (
   <html lang="en">
    <body
